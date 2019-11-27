@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<head>
+	<title>Registro Cliente - Sound Capital</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
 <body>
-
+<title>Registro Cliente - Sound Capital</title>
 <h1>Registro Cliente</h1>
-<p>My first paragraph.</p>
+<p>Ingrese sus datos para registrarlo:</p>
+<form action="/action_page.php" method="get">
+  Nombre Completo:* <input type="text" name="nom" required><br>
+  Cédula:* <input type="text" name="ced" required><br>
+  Número de Contacto:* <input type="text" name="num" required><br>
+  <input type="checkbox" name="aceptarTerminos" value="acepta" required> Estoy de acuerdo con los <a href="Terminos.html">Términos y condiciones</a>.<br>
+  <input type="submit" value="Enviar">
+</form>
 
 </body>
 </html>

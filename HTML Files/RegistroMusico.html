@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<head>
+	<title>Registro Músico- Sound Capital</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
 <body>
-
 <h1>Registro Músico</h1>
-<p>My first paragraph.</p>
+<p>Ingrese sus datos para registrarlo:</p>
+<form action="/action_page.php" method="get">
+  Nombre Represante:* <input type="text" name="nom" required><br>
+  Cédula:* <input type="text" name="ced" required><br>
+  Teléfono Represante:* <input type="text" name="tel1" required><br>
+  Teléfono Respaldo:* <input type="text" name="tel2" required><br>
+  Nombre Grupo:* <input type="text" name="nomGrup" required><br>
+  Género:* <input type="text" name="gen" required><br>
+  Carge el RUT aquí:*
+    <input type="file" name="fileToUpload" id="rut" required> <br>
+  <input type="checkbox" name="aceptarTerminos" value="acepta" required> Estoy de acuerdo con los <a href="Terminos.html">Términos y condiciones</a>.<br>
+  <input type="submit" value="Enviar">
+</form>
 
 </body>
 </html>
